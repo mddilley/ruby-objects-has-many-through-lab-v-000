@@ -19,4 +19,8 @@ class Genre
     Song.all.select {|i| i.genre == self}
   end
 
+  def artists
+    binding.pry
+  end
+
 end
