@@ -17,6 +17,6 @@ class Doctor
     @@all
   end
 
-  
+
 
 end
