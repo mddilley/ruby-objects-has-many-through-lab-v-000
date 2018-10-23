@@ -9,4 +9,5 @@ class patient
   def self.all
     @@all
   end
+
 end
