@@ -15,8 +15,4 @@ class Appointment
     @@all
   end
 
-  def appointments
-
-  end
-
 end
