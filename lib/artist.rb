@@ -22,7 +22,7 @@ class Artist
 
   def songs
     #binding.pry
-    @@all.select {|i| i.artist == self}
+    @songs.select {|i| i.artist == self}
   end
 
 
