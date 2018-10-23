@@ -20,6 +20,6 @@ class Artist
     binding.pry
   end
 
-  
+
 
 end
