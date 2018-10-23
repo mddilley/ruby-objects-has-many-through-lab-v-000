@@ -21,4 +21,8 @@ class Doctor
     Appointment.all.select {|i| i.doctor == self}
   end
 
+  def patients
+    self.appointments.select {|i| i.patient}.uniq
+  end
+
 end
