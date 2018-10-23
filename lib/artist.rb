@@ -22,7 +22,7 @@ class Artist
 
   def songs
     binding.pry
-    @songs.collect {|i| i.name == self.name}
+    @songs.collect {|i| i.artist == self}
   end
 
 
